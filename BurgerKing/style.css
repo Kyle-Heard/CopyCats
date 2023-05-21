@@ -1,0 +1,80 @@
+:root.light{
+--bg-color: #f5ebdc;
+--main-txt-color: black;
+--main-border-color: #89a;
+
+--bg-color-secondary: #d3c9ba;
+
+}
+
+:root{
+    color: var(--main-txt-color);
+    background-color: var(--bg-color);
+}
+
+
+header{
+    background-color: var(--bg-color);
+    border-bottom: .2rem solid var(--main-border-color);
+    position: sticky;
+    top: 0;
+    padding: 1rem 0;
+}
+
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.chooseLocation{
+    margin: 0 5%;
+}
+
+
+footer{
+    background-color: var(--bg-color);
+    border-top: .2rem solid var(--main-border-color);
+    position: sticky;
+    bottom: 0;
+    padding: 1rem 0;
+}
+
+.footNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 98vh;
+}
+
+.deals{
+    height: 70%;
+}
+
+.appLink{
+    background-color: var(--bg-color-secondary);
+    height: 30%;
+}
+
+.deals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 5%;
+    margin: 0 5%;
+    padding: 1rem 0;
+}
+
+.card{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
